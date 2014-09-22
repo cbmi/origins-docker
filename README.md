@@ -42,7 +42,7 @@ neo4j:
         - /data/neo4j:/neo4j/data
 
 # Origins service
-origins_service:
+service:
     image: bruth/origins
     ports:
         - 5000:5000
@@ -53,7 +53,7 @@ origins_service:
         - serve
 
 # Origins events daemon
-origins_events:
+events:
     image: bruth/origins
     links:
         - redis:redis
