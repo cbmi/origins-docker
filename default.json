@@ -1,9 +1,0 @@
-{
-    "host": "0.0.0.0",
-    "redis": {
-        "host": "redis"
-    },
-    "neo4j": {
-        "host": "neo4j"
-    }
-}
